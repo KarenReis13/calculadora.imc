@@ -1,0 +1,82 @@
+/* css reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    color: rgb(64, 24, 1);
+    background-color: rgb(131, 30, 225);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px;
+    padding: 30px;
+    width: 320px;
+    text-align:center;
+}
+
+.card{
+    background-color: rgb(225, 202, 244);
+    width: 320px;
+    padding: 25px;
+
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: rgb(64, 24, 1);
+    font-size: large;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: rgb(76, 9, 138);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+p{ 
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
